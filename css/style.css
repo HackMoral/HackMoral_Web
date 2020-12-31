@@ -17,7 +17,7 @@ body {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 0.5;
   color: #828282;
   background: #fff;
 }
@@ -88,7 +88,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-
 .fh5co-nav {
   position: fixed;
   top: 0;
@@ -101,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .navbackgroud{
-  background-color: rgba(71, 71, 71, 0.8);
+  background-color: rgba(47, 69, 92);
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -344,7 +343,7 @@ background-position:center; */
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 900px;
+  height: 800px;
   display: table;
   width: 100%;
 }
@@ -359,19 +358,19 @@ background-position:center; */
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover-sm {
-    height: 600px;
+    height: 800px;
   }
 }
 .fh5co-cover.fh5co-cover-sm .display-t,
 .fh5co-cover.fh5co-cover-sm .display-tc {
-  height: 600px;
+  height: 800px;
   display: table;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover-sm .display-t,
   .fh5co-cover.fh5co-cover-sm .display-tc {
-    height: 600px;
+    height: 800px;
   }
 }
 
@@ -909,7 +908,7 @@ form label {
 .fh5co-cover .display-tc h2 {
   font-size: 20px;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 150px;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
@@ -922,7 +921,7 @@ form label {
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
-  background: rgb(108, 0, 134) !important;
+  background: rgb(47, 69, 92) !important;
   color: rgb(255, 255, 255);
   border: none !important;
   font-size: 16px;
@@ -934,8 +933,8 @@ form label {
 #fh5co-started .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #fff !important;
-  color: rgb(108, 0, 134) !important;
+  background: #20cfd4 !important;
+  color: rgb(47, 69, 92) !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -1915,7 +1914,7 @@ html{
 
 .js .animate-box .btn-default{
  
-  background: rgb(108, 0, 134) !important;
+  background: rgb(47, 69, 92) !important;
 color: rgb(255, 255, 255);
   font-weight: bold;
    text-transform: uppercase;
@@ -1930,7 +1929,7 @@ color: rgb(255, 255, 255);
 
 
   #header {
-    /* background: #fff; */
+    background: #2f455c; 
     position: fixed;
     left: 0;
     top: 0;
@@ -2040,6 +2039,7 @@ color: rgb(255, 255, 255);
 @media (max-width: 1024px) {
   #nav-menu-container {
     display: none;
+    color: rgb(47, 69, 92);
   }
 }
 
@@ -2051,7 +2051,7 @@ color: rgb(255, 255, 255);
   color: rgb(253, 253, 255);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   outline: none;
   letter-spacing: 0;
   transition: 0.3s;
