@@ -1,0 +1,15 @@
+
+[class^="icon-"]:before, [class*=" icon-"]:before{ line-height: inherit; }
+
+.center-text{ text-align: center; } 
+
+.display-table{ display: table; height: 100%; width: 100%; }
+
+.display-table-cell{ display: table-cell; vertical-align: middle; }
+
+.right-section{ position: absolute; top: 50%; bottom: 0; right: 0; width: 100%; background-size: cover; z-index: 1; }
+
+.right-section:after{ content:''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; z-index: -2; opacity: .3; }
+
+#rounded-countdown{ width: 80%; margin: 0 auto; }
+
