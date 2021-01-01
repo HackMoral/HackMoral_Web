@@ -352,7 +352,8 @@
                                 gauge: {
                                     thickness: 0.25,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#8e44ad", lineCap: 'round'
+                                    fgColor: "#8e44ad",
+                                     lineCap: 'round'
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             },
