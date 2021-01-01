@@ -17,7 +17,7 @@ body {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.5;
+  line-height: 1.5;
   color: #828282;
   background: #fff;
 }
@@ -326,12 +326,241 @@ background-position:center; */
 .fh5co-cover .overlay {
   z-index: 0;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(47, 69, 92, 0.5);
 }
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+/*========================= Home Animation =========================*/
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.area{
+    background: #6F9FD5;  
+    width: 100%;
+    height:900px;   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(53, 88, 128, 0.9);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles li:nth-child(11){
+    left: 55%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 5s;
+}
+
+
+.circles li:nth-child(12){
+    left: 60%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 7s;
+    animation-duration: 40s;
+}
+
+.circles li:nth-child(13){
+    left: 30%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 9s;
+}
+
+.circles li:nth-child(14){
+    left: 90%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 5s;
+    animation-duration: 20s;
+}
+
+.circles li:nth-child(15){
+    left: 15%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 5s;
+}
+
+.circles li:nth-child(16){
+    left: 80%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 8s;
+}
+
+.circles li:nth-child(17){
+    left: 85%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 17s;
+}
+
+.circles li:nth-child(18){
+    left: 100%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 20s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(19){
+    left: 45%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 7s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(20){
+    left: 95%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+}
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+/*=============================================================*/
+
 .fh5co-cover > .fh5co-container {
   position: relative;
   z-index: 10;
@@ -877,18 +1106,39 @@ form label {
 .fh5co-cover .display-tc h1,
 .fh5co-cover .display-tc h2 {
   margin: 0;
-  padding: 0;
+  padding: 15px;
   color: white;
 }
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
-  margin-bottom: 0px;
-  font-size: 80px;
-  line-height: 1.5;
-  font-family: Arial, serif;
-  font-weight: bold;
+  margin-bottom: 12px;
+  color: mix(#20cfd4, #2f455c, 85%);
+	font-size: calc(2em + 6.5vw) ;  
+	font-weight: 900;
+	text-shadow: 
+		-0.0075em 0.0075em 0 mix(#20cfd4, #2f455c, 94%),
+		0.005em 0.005em 0 mix(#20cfd4, #2f455c, 60%),
+		0.01em 0.01em 0 mix(#20cfd4, #2f455c, 62%), 
+		0.015em 0.015em mix(#20cfd4, #2f455c, 64%), 
+		0.02em 0.02em 0 mix(#20cfd4, #2f455c,66%), 
+		0.025em 0.025em 0 mix(#20cfd4, #2f455c, 68%),
+		0.03em 0.03em 0 mix(#20cfd4, #2f455c, 70%),
+		0.035em 0.035em 0 mix(#20cfd4, #2f455c, 72%);
+
 }
+
+#fh5co-header .display-tc .head-container {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
@@ -908,7 +1158,7 @@ form label {
 .fh5co-cover .display-tc h2 {
   font-size: 20px;
   line-height: 1.5;
-  margin-bottom: 150px;
+  margin-bottom: 350px;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
@@ -1454,6 +1704,7 @@ html{
 
 
 
+
 #fh5co-started .form-inline .form-group {
   width: 100% !important;
   margin-bottom: 10px;
@@ -1936,6 +2187,8 @@ color: rgb(255, 255, 255);
     right: 0;
     z-index: 3;
     transition: all 0.5s ease;
+    opacity: 0.7;
+    height: 50px;
   }
   
   #header #logo {
@@ -1978,6 +2231,7 @@ color: rgb(255, 255, 255);
   margin: 0;
   padding: 15px;
   list-style: none;
+  line-height: 0;
 }
 
 .nav-menu ul {
