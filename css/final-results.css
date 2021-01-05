@@ -1,0 +1,93 @@
+#final-results-div{
+    background-color: aqua !important ; 
+}
+
+.final-results-heading h3{
+    color: white;
+}
+
+#second-place{
+  margin-top: 45px;
+  background-color:#C0C0C0;
+}
+
+#first-place{
+    /* margin-top: 45px; */
+    background-color: #f3d42e;
+}
+
+#third-place{
+    margin-top: 45px;
+    background-color:#cd7f32;
+}
+
+.case-studies-summary h2 span{
+    font-size: 2em !important;
+    font-family: monospace;
+    /* background-image: url(https://smallbizclub.com/wp-content/uploads/2018/12/Mark-Evans-300x300.png); */
+}
+
+#second-place-details{
+    display: none;
+}
+
+#first-place-details{
+    display: none;
+}
+
+#third-place-details{
+    display: none;
+}
+
+
+/* #second-place:hover{
+    margin-top: 45px;
+    background-image: url(/images/gallery-2.jpg); 
+} */
+
+/* #first-place:hover{
+    margin-top: 45px;
+    background-image: url(/images/gallery-2.jpg); 
+} */
+
+/* #second-place-text:hover{
+    display: none;
+} */
+
+#second-place:hover > #second-place-text { 
+                         display: none;
+                        }
+#second-place:hover > #second-place-details { 
+    display: block;
+    }
+
+#first-place:hover > #first-place-text { 
+    display: none;
+}
+
+#first-place:hover > #first-place-details { 
+    display: block;
+}
+
+#third-place:hover > #third-place-text { 
+    display: none;
+}
+
+#third-place:hover > #third-place-details { 
+    display: block;
+}
+
+
+
+                        
+@media screen and (max-width: 468px){
+    #first-place {
+        margin-top: 20px;
+    }
+    #third-place {
+        margin-top: 20px;
+    }
+    #second-place {
+        margin-top: 20px;
+    }
+}
