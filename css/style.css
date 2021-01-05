@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::selection {
   color: #fff;
-  background: #F14E95;
+  background: gray;
 }
 
 
@@ -338,17 +338,9 @@ background-position:center; */
   border-radius: 100%;
   opacity: 0.7;
 }
-/*========================= Home Animation =========================*/
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
 
-body{
-    font-family: 'Exo', sans-serif;
-}
+
 
 
 .context {
@@ -567,7 +559,7 @@ body{
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 800px;
+    height: 900px;
   }
 }
 .fh5co-cover .display-t,
@@ -1107,7 +1099,7 @@ form label {
 .fh5co-cover .display-tc h2 {
   margin: 0;
   padding: 15px;
-  color: white;
+  color: black;
 }
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
@@ -1115,17 +1107,11 @@ form label {
   margin-bottom: 12px;
   color: mix(#20cfd4, #2f455c, 85%);
 	font-size: calc(2em + 6.5vw) ;  
-	font-weight: 900;
-	text-shadow: 
-		-0.0075em 0.0075em 0 mix(#20cfd4, #2f455c, 94%),
-		0.005em 0.005em 0 mix(#20cfd4, #2f455c, 60%),
-		0.01em 0.01em 0 mix(#20cfd4, #2f455c, 62%), 
-		0.015em 0.015em mix(#20cfd4, #2f455c, 64%), 
-		0.02em 0.02em 0 mix(#20cfd4, #2f455c,66%), 
-		0.025em 0.025em 0 mix(#20cfd4, #2f455c, 68%),
-		0.03em 0.03em 0 mix(#20cfd4, #2f455c, 70%),
-		0.035em 0.035em 0 mix(#20cfd4, #2f455c, 72%);
-
+  font-weight: 900;
+  text-shadow : 5px 5px 12px #20cfd4,
+  -5px 5px 12px #20cfd4,
+  -5px 5px 12px #20cfd4,
+  5px 5px 12px #20cfd4;
 }
 
 #fh5co-header .display-tc .head-container {
@@ -1156,10 +1142,33 @@ form label {
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.5;
   margin-bottom: 350px;
+  font-weight:730;  
+  letter-spacing:1.5px; 
+  text-transform:uppercase;
+   white-space:nowrap; 
+   color: #000;
 }
+
+#fh5co-header h2::before {
+  background-color: #c50000;
+    content: '';
+    display: block;
+    height: 4.5px;
+    margin-bottom: 5px;
+}
+
+#fh5co-header h2::after {
+  position:absolute; right:0;
+    background-color: #c50000;
+    content: '';
+    display: block;
+    height: 4.5px;
+    margin-bottom: 5px;
+}
+
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
@@ -1183,7 +1192,7 @@ form label {
 #fh5co-started .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #20cfd4 !important;
+  background: lightblue !important;
   color: rgb(47, 69, 92) !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -2229,7 +2238,9 @@ color: rgb(255, 255, 255);
 /* Nav Menu Essentials */
 .nav-menu, .nav-menu * {
   margin: 0;
-  padding: 15px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   list-style: none;
   line-height: 0;
 }
@@ -2299,7 +2310,7 @@ color: rgb(255, 255, 255);
 
 /* Nav Meu Styling */
 .nav-menu a {
-  padding: 8px 8px;
+  padding: 0px 8px;
   text-decoration: none;
   display: inline-block;
   color: rgb(253, 253, 255);
