@@ -47,7 +47,6 @@ body {
     bottom: 0;
     left: 0;
     z-index: 101;
-    background: rgba(0, 0, 0, 0.7);
     content: "";
 }
 
@@ -367,7 +366,6 @@ background-position:center; */
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(47, 69, 92, 0.5);
 }
 
 .ball {
@@ -389,9 +387,10 @@ background-position:center; */
 }
 
 .area {
-    background: #6F9FD5;
     width: 100%;
     height: 900px;
+    
+
 }
 
 .circles {
@@ -593,7 +592,7 @@ background-position:center; */
 
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-    height: 800px;
+    height: 950px;
     display: table;
     width: 100%;
 }
@@ -1027,15 +1026,14 @@ form label {
 .fh5co-cover .display-tc h2 {
     font-size: 30px;
     line-height: 1.5;
-    margin-bottom: 350px;
     font-weight: 730;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     white-space: nowrap;
-    color: #000;
+    color: #fff;
 }
 
-#fh5co-header h2::before {
+/*#fh5co-header h2::before {
     background-color: #c50000;
     content: '';
     display: block;
@@ -1051,7 +1049,7 @@ form label {
     display: block;
     height: 4.5px;
     margin-bottom: 5px;
-}
+}*/
 
 @media screen and (max-width: 480px) {
     #fh5co-header .display-tc h2,
@@ -2336,7 +2334,6 @@ html {
 @media (max-width: 1024px) {
     #nav-menu-container {
         display: none;
-        color: rgb(47, 69, 92);
     }
 }
 
@@ -2494,7 +2491,6 @@ html {
     top: 0;
     left: 0;
     position: fixed;
-    background: rgba(52, 59, 64, 0.9);
     display: none;
 }
 
