@@ -350,7 +350,7 @@ figure {
 }
 
 .fh5co-cover {
-    height: 900px;
+    height: 948px;
     background-size: cover;
     position: relative;
     width: 100%;
@@ -389,8 +389,6 @@ background-position:center; */
 .area {
     width: 100%;
     height: 900px;
-    
-
 }
 
 .circles {
@@ -1032,6 +1030,7 @@ form label {
     white-space: nowrap;
     color: #fff;
 }
+
 
 /*#fh5co-header h2::before {
     background-color: #c50000;
@@ -2531,6 +2530,10 @@ body.mobile-nav-active #mobile-nav-toggle i {
 .line-space {
     line-height: 1.5;
     margin-top: -22em;
+}
+
+.textcolor {
+    color: rgb(185, 28, 28);
 }
 
 @keyframes changecolors {
