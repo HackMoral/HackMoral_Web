@@ -7,7 +7,7 @@
 }
 
 #second-place{
-  margin-top: 45px;
+  /* margin-top: 45px; */
   background-color:#C0C0C0;
 }
 
@@ -17,7 +17,7 @@
 }
 
 #third-place{
-    margin-top: 45px;
+    /* margin-top: 45px; */
     background-color:#cd7f32;
 }
 
@@ -67,6 +67,7 @@
 
 #first-place:hover > #first-place-details { 
     display: block;
+    bottom: 1em;
 }
 
 #third-place:hover > #third-place-text { 
@@ -89,5 +90,11 @@
     }
     #second-place {
         margin-top: 20px;
+    }
+    #fh5co-gallery-list li {
+        min-height: 200px;
+    }
+    #fh5co-gallery-list li a {
+        min-height: 300px;
     }
 }
