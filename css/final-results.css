@@ -8,17 +8,65 @@
 
 #second-place{
   /* margin-top: 45px; */
-  background-color:#C0C0C0;
+  /* background-color:#C0C0C0; */
+  /* background-image: url('../images/Card2.png'); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#second-place-img{
+    /* margin-top: 45px; */
+    /* background-color:#C0C0C0; */
+    background-image: url('../images/Card2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  #first-place-img{
+    /* margin-top: 45px; */
+    /* background-color:#C0C0C0; */
+    background-image: url('../images/Card1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  #third-place-img{
+    /* margin-top: 45px; */
+    /* background-color:#C0C0C0; */
+    background-image: url('../images/Card3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+
+#fh5co-gallery-list li a {
+  width: 65%;
+  min-height: 300px;
+  /* max-height: 300px; */
 }
 
 #first-place{
     /* margin-top: 45px; */
-    background-color: #f3d42e;
+    background-color: #d6b65fcf;
+    border-radius: 8px;
+    /* #f3d42e; */
 }
 
 #third-place{
     /* margin-top: 45px; */
-    background-color:#cd7f32;
+    background-color: #bea474; 
+    /* #cd7f32; */
+    border-radius: 8px;
 }
 
 .case-studies-summary h2 span{
@@ -53,6 +101,10 @@
 /* #second-place-text:hover{
     display: none;
 } */
+
+#fh5co-gallery-list li a:before {
+
+}
 
 #second-place:hover > #second-place-text { 
                          display: none;
@@ -92,9 +144,11 @@
         margin-top: 20px;
     }
     #fh5co-gallery-list li {
-        min-height: 200px;
+        /* min-height: 200px; */
+        width: 90%;
     }
     #fh5co-gallery-list li a {
-        min-height: 300px;
+        /* min-height: 300px; */
+        width: 90%;
     }
 }
