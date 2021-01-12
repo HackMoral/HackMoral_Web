@@ -1,0 +1,5 @@
+	.right-section{ top: auto; bottom: auto; width: 100%; height: 50%; }
+
+	.date-countdown{ width: 100%; }
+	
+	.date-countdown .time_circles > div > h4{font-size: .7em!important; }
