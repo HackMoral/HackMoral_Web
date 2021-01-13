@@ -7,17 +7,9 @@
 
 .display-table-cell{ display: table-cell; vertical-align: middle; }
 
-<<<<<<< HEAD
-.right-section{ position: absolute; top: 35%; bottom: 0; right: 0; width: 100%; background-size: cover; z-index: 1; }
-
-.right-section:after{ content:''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; z-index: -2; opacity: .3; }
-
-#rounded-countdown{ width: 80%; height: 180px; margin: 0 auto; }
-=======
 .right-section{ position: absolute; top: 55%; bottom: 0; right: 0; width: 100%; background-size: cover; z-index: 1; }
 
 .right-section:after{ content:''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; z-index: -2; opacity: .3; }
 
 #rounded-countdown{ width: 80%; height: 180px; margin: 0 auto;}
->>>>>>> 00ceb7396fbcb1eede9f1223423e32526cef51e0
 
