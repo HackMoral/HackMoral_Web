@@ -370,7 +370,11 @@ background-position:center; */
 
 .ball {
     position: absolute;
+<<<<<<< HEAD
     border-radius: 50%;
+=======
+    border-radius: 95%;
+>>>>>>> new-dev
     opacity: 0.7;
 }
 
@@ -1312,7 +1316,11 @@ html {
 
 #fh5co-testimonial .wrap-testimony .testimony-slide blockquote p {
     font-style: italic;
+<<<<<<< HEAD
     color: #8f989f;
+=======
+    color: snow;
+>>>>>>> new-dev
     font-size: 20px;
     line-height: 1.6em;
 }
@@ -1768,7 +1776,11 @@ html {
     margin-bottom: 4px;
     font-family: "Work Sans", Arial, sans-serif;
     font-size: 16px;
+<<<<<<< HEAD
     font-weight: 400;
+=======
+    font-weight: 580;
+>>>>>>> new-dev
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;

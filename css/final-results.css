@@ -16,6 +16,7 @@
 }
 
 #second-place-img{
+<<<<<<< HEAD
     /* margin-top: 45px; */
     /* background-color:#C0C0C0; */
     background-image: url('../images/Card2.png');
@@ -44,15 +45,66 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+=======
+    border-radius: 8px;
+    box-shadow: 4px 3px 12px 0px #888888;
+  }
+
+#first-place-img{
+    border-radius: 8px;
+    box-shadow: 4px 3px 12px 0px #888888;
+}
+
+#second-place-img{
+    border-radius: 8px;
+    box-shadow: 4px 3px 12px 0px #888888;
+  }
+
+#third-place-img{
+    border-radius: 8px;
+    box-shadow: 4px 3px 12px 0px #888888;
+}
+
+  .place-img{
+    /* margin-top: 45px; */
+    /* background-color:#C0C0C0; */
+    /* background-image: url('../images/Card3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+>>>>>>> new-dev
     min-width: 100%;
     min-height: 100%;
   }
 
+<<<<<<< HEAD
+=======
+.fh5co-heading span {
+    font-size: 0.8em;
+}
+
+>>>>>>> new-dev
 
 #fh5co-gallery-list li a {
   width: 65%;
   min-height: 300px;
+<<<<<<< HEAD
   /* max-height: 300px; */
+=======
+  max-height: 300px;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+#fh5co-gallery-list li{
+    min-height: 320px;
+    max-width: 210px;
+  }
+
+#fh5co-gallery-list li a .case-studies-summary {
+    width: 100%;
+    height: 100%;
+>>>>>>> new-dev
 }
 
 #first-place{
@@ -130,6 +182,21 @@
     display: block;
 }
 
+<<<<<<< HEAD
+=======
+#fh5co-gallery-list li a:hover {
+    transform: scale(1.03);
+}
+
+#merit-details{
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    color: #0c3d74;
+}
+  
+
+>>>>>>> new-dev
 
 
                         
