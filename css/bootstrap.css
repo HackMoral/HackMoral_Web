@@ -2607,7 +2607,7 @@ select[multiple].input-lg,
   outline-offset: -2px;
 }
 .btn:hover, .btn:focus, .btn.focus {
-  color: rgb(170, 0, 0);
+  color: rgb(9, 243, 255);
   text-decoration: none;
 }
 .btn:active, .btn.active {

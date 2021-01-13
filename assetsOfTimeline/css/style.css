@@ -1460,10 +1460,10 @@ u,
 }
 
 .btn--subtle {
-    background-color: hsl(202.7, 100%, 83.9%);
-    background-color: hsl(202.7, 100%, 83.9%);
-    color           : #0d49d8;
-    color           : #0d49d8;
+    background-color: rgb(20, 0, 92);;
+    background-color: rgb(20, 0, 92);;
+    color           : #d2dfff;
+    color           : #d4e1ff;
 }
 
 .btn--accent {
