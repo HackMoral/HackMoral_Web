@@ -1,7 +1,11 @@
 // Some random colors
 const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
 
+<<<<<<< HEAD
 const numBalls = 75;
+=======
+const numBalls = 50;
+>>>>>>> 00ceb7396fbcb1eede9f1223423e32526cef51e0
 const balls = [];
 
 for (let i = 0; i < numBalls; i++) {
