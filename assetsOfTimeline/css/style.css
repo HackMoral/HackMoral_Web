@@ -1460,17 +1460,10 @@ u,
 }
 
 .btn--subtle {
-<<<<<<< HEAD
-    background-color: hsl(240, 1%, 83%);
-    background-color: var(--color-contrast-low, #d3d3d4);
-    color           : hsl(240, 8%, 12%);
-    color           : var(--color-contrast-higher, #1c1c21)
-=======
     background-color: rgb(20, 0, 92);;
     background-color: rgb(20, 0, 92);;
     color           : #d2dfff;
     color           : #d4e1ff;
->>>>>>> new-dev
 }
 
 .btn--accent {
@@ -3726,13 +3719,8 @@ mark {
     overflow        : hidden;
     padding         : 2em 0;
     padding         : var(--space-lg) 0;
-<<<<<<< HEAD
-    color           : hsl(207, 10%, 55%);
-    color           : var(--cd-color-3);
-=======
     color           : hsl(0, 0%, 100%);
     color           :  hsl(0, 0%, 100%);
->>>>>>> new-dev
     background-color: hsl(205, 38%, 93.45%);
     background-color: hsl(var(--cd-color-2-h), var(--cd-color-2-s), calc(var(--cd-color-2-l)*1.05));
     font-family     : 'Droid Serif', serif;
@@ -3862,13 +3850,8 @@ mark {
     border-radius    : var(--radius-md);
     padding          : 1.25em;
     padding          : var(--space-md);
-<<<<<<< HEAD
-    box-shadow       : 0 3px 0 hsl(205, 38%, 89%);
-    box-shadow       : 0 3px 0 var(--cd-color-2)
-=======
     box-shadow       : 8px 8px 8px hsl(200, 100%, 40%);
     box-shadow       : 8px 8px 8px hsl(200, 100%, 40%);
->>>>>>> new-dev
 }
 
 .cd-timeline__content::before {
