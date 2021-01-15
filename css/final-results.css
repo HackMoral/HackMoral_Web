@@ -1,0 +1,180 @@
+#final-results-div{
+    background-color: aqua !important ; 
+}
+
+.final-results-heading h3{
+    color: white;
+}
+
+#second-place{
+  /* margin-top: 45px; */
+  /* background-color:#C0C0C0; */
+  /* background-image: url('../images/Card2.png'); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#second-place-img{
+    border-radius: 8px;
+    box-shadow: 4px 3px 12px 0px #888888;
+  }
+
+#first-place-img{
+    border-radius: 8px;
+    box-shadow: 4px 3px 12px 0px #888888;
+}
+
+#second-place-img{
+    border-radius: 8px;
+    box-shadow: 4px 3px 12px 0px #888888;
+  }
+
+#third-place-img{
+    border-radius: 8px;
+    box-shadow: 4px 3px 12px 0px #888888;
+}
+
+  .place-img{
+    /* margin-top: 45px; */
+    /* background-color:#C0C0C0; */
+    /* background-image: url('../images/Card3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.fh5co-heading span {
+    font-size: 0.8em;
+}
+
+
+#fh5co-gallery-list li a {
+  width: 65%;
+  min-height: 300px;
+  max-height: 300px;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+#fh5co-gallery-list li{
+    min-height: 320px;
+    max-width: 210px;
+  }
+
+#fh5co-gallery-list li a .case-studies-summary {
+    width: 100%;
+    height: 100%;
+}
+
+#first-place{
+    /* margin-top: 45px; */
+    background-color: #d6b65fcf;
+    border-radius: 8px;
+    /* #f3d42e; */
+}
+
+#third-place{
+    /* margin-top: 45px; */
+    background-color: #bea474; 
+    /* #cd7f32; */
+    border-radius: 8px;
+}
+
+.case-studies-summary h2 span{
+    font-size: 2em !important;
+    font-family: monospace;
+    /* background-image: url(https://smallbizclub.com/wp-content/uploads/2018/12/Mark-Evans-300x300.png); */
+}
+
+#second-place-details{
+    display: none;
+}
+
+#first-place-details{
+    display: none;
+}
+
+#third-place-details{
+    display: none;
+}
+
+
+/* #second-place:hover{
+    margin-top: 45px;
+    background-image: url(/images/gallery-2.jpg); 
+} */
+
+/* #first-place:hover{
+    margin-top: 45px;
+    background-image: url(/images/gallery-2.jpg); 
+} */
+
+/* #second-place-text:hover{
+    display: none;
+} */
+
+#fh5co-gallery-list li a:before {
+
+}
+
+#second-place:hover > #second-place-text { 
+                         display: none;
+                        }
+#second-place:hover > #second-place-details { 
+    display: block;
+    }
+
+#first-place:hover > #first-place-text { 
+    display: none;
+}
+
+#first-place:hover > #first-place-details { 
+    display: block;
+    bottom: 1em;
+}
+
+#third-place:hover > #third-place-text { 
+    display: none;
+}
+
+#third-place:hover > #third-place-details { 
+    display: block;
+}
+
+#fh5co-gallery-list li a:hover {
+    transform: scale(1.03);
+}
+
+#merit-details{
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    color: #0c3d74;
+}
+  
+
+
+
+                        
+@media screen and (max-width:680px){
+    #first-place {
+        margin-top: 20px;
+    }
+    #third-place {
+        margin-top: 20px;
+    }
+    #second-place {
+        margin-top: 20px;
+    }
+    #fh5co-gallery-list li {
+        /* min-height: 200px; */
+        width: 90%;
+    }
+    #fh5co-gallery-list li a {
+        /* min-height: 300px; */
+        width: 90%;
+    }
+}
