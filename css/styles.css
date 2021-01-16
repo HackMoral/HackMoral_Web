@@ -11,5 +11,5 @@
 
 .right-section:after{ content:''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; z-index: -2; opacity: .3; }
 
-#rounded-countdown{ width: 80%; height: 180px; margin: 0 auto;}
+#rounded-countdown{ width: 80%; margin: 0 auto;}
 
