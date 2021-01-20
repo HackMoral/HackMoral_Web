@@ -11,9 +11,11 @@
 	}
 	
 	//ROUNDED TIMES COUNTDOWN
-	
+	var newcountDownDate = new Date("Jan 21, 2021 00:00:00").getTime()/1000;
+	var newDate = new Date().getTime()/1000;
 	if(isExists('#rounded-countdown')){
-		var remainingSec = $('.countdown').data('remaining-sec');
+		
+		var remainingSec = newcountDownDate-newDate;
 		$('.countdown').ClassyCountdown({
 			theme: "flat-colors-very-wide",
 			end: $.now() + remainingSec
